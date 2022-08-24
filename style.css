@@ -105,6 +105,8 @@ main {
     .card {
         width: 90%;
         flex-direction: column;
+        position: relative;
+        transform: translateY(-23%);
     }
     .logo {
         padding-top: 70%;
@@ -115,6 +117,6 @@ main {
         border-bottom-left-radius: 0;
     }
     .content {
-        border-bottom-right-radius: 0;
+       border-bottom-left-radius: 8px;
     }
 }
