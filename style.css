@@ -105,8 +105,8 @@ main {
     .card {
         width: 90%;
         flex-direction: column;
-        position: relative;
-        transform: translateY(-25%);
+        position: absolute;
+        transform: translate(5%, 5%);
     }
     .logo {
         padding-top: 70%;
